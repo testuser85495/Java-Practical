@@ -1,0 +1,38 @@
+package pizza;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("1.Small Pizza");
+		System.out.println("2.Medium Pizza");
+		System.out.println("3.Large Pizza");
+		System.out.println("4.Monster Pizza");
+		System.out.println("Select Your Pizza: ");
+		
+		byte choice = scanner.nextByte();
+		
+		if (choice > 0 && choice < 5) {
+			if (choice == 1) {
+				System.out.println("Small");
+			}
+			else if (choice == 2) {
+				System.out.println("medium");
+			}
+			else if (choice == 3) {
+				System.out.println("Large");
+			}
+			else if (choice == 4) {
+				System.out.println("Monster");
+			}
+		} 
+		else {
+			System.out.println("Invalid !!!");
+		}
+
+	}
+
+}

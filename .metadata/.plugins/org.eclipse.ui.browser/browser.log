@@ -1,0 +1,615 @@
+
+Apr 09, 2024 20:51:10.43 NEW SESSION
+Apr 09, 2024 20:51:10.44 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 09, 2024 20:51:10.46 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 10, 2024 11:17:14.05 NEW SESSION
+Apr 10, 2024 11:17:14.06 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 10, 2024 11:17:14.06 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 10, 2024 12:41:59.82 [15128:12516:0410/124159.826:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:41:59.97 [15128:12516:0410/124159.969:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.07 [15128:12516:0410/124200.075:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.20 [15128:12516:0410/124200.200:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.35 [15128:12516:0410/124200.356:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.55 [15128:12516:0410/124200.554:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.68 [15128:12516:0410/124200.681:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.81 [15128:12516:0410/124200.816:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:00.92 [15128:12516:0410/124200.921:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:01.29 [15128:12516:0410/124201.296:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:02.91 [15128:12516:0410/124202.913:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:03.28 [15128:12516:0410/124203.280:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:03.51 [15128:12516:0410/124203.518:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:21.38 [15128:12516:0410/124221.388:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:42:21.59 [15128:12516:0410/124221.594:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:47:00.83 [15128:12516:0410/124700.831:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+Apr 10, 2024 12:52:00.81 [15128:12516:0410/125200.816:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.334 s for first_image_paint 0.324 s
+
+Apr 10, 2024 21:08:03.51 NEW SESSION
+Apr 10, 2024 21:08:03.51 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 10, 2024 21:08:03.51 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 10, 2024 21:09:16.03 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 10, 2024 21:09:16.03 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 10, 2024 21:11:12.92 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 10, 2024 21:11:12.93 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 11, 2024 11:01:20.93 NEW SESSION
+Apr 11, 2024 11:01:20.94 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 11:01:20.94 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 11:05:59.91 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 11:05:59.91 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 11:15:13.60 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 11:15:13.60 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 12:03:33.93 [7596:9524:0411/120333.934:ERROR:device_event_log_impl.cc(195)] [12:03:33.934] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 11, 2024 12:09:52.63 [7596:9524:0411/120952.633:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 11, 2024 12:11:54.38 [7596:9524:0411/121154.387:ERROR:device_event_log_impl.cc(195)] [12:11:54.387] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 11, 2024 12:23:51.79 [7596:9524:0411/122351.795:ERROR:device_event_log_impl.cc(195)] [12:23:51.794] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 11, 2024 12:35:21.93 [7596:9524:0411/123521.932:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 11, 2024 12:41:05.08 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 12:41:05.08 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 11, 2024 13:56:47.97 NEW SESSION
+Apr 11, 2024 13:56:47.98 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 13:56:47.98 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 11, 2024 17:13:28.33 NEW SESSION
+Apr 11, 2024 17:13:28.34 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 17:13:28.34 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 17:27:03.04 [11704:13208:0411/172703.048:ERROR:cert_verify_proc_builtin.cc(878)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+Apr 11, 2024 17:27:03.04 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+Apr 11, 2024 17:27:03.04 ERROR: Time is after notAfter
+Apr 11, 2024 17:27:03.04 
+Apr 11, 2024 17:27:03.05 
+Apr 11, 2024 17:54:05.50 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 17:54:05.51 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 17:56:00.07 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 17:56:00.08 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 18:11:34.74 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 18:11:34.74 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 11, 2024 18:13:53.14 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 11, 2024 18:13:53.14 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 13, 2024 10:32:16.28 NEW SESSION
+Apr 13, 2024 10:32:16.29 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 13, 2024 10:32:16.29 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 13, 2024 13:06:13.72 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 13, 2024 13:06:13.72 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 13, 2024 13:07:52.44 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 13, 2024 13:07:52.44 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 15, 2024 12:54:25.51 NEW SESSION
+Apr 15, 2024 12:54:25.53 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 12:54:25.53 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 12:54:40.68 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 12:54:40.69 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 12:59:33.36 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 12:59:33.38 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 14:03:16.48 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 14:03:16.48 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 14:03:36.22 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 14:03:36.22 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 14:15:06.57 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 14:15:06.57 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 14:19:06.27 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 14:19:06.27 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 14:32:50.96 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 14:32:50.96 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 15, 2024 14:32:59.94 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 15, 2024 14:32:59.94 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 16, 2024 10:26:22.38 NEW SESSION
+Apr 16, 2024 10:26:22.39 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 16, 2024 10:26:22.40 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 16, 2024 10:26:35.01 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 16, 2024 10:26:35.01 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 16, 2024 17:23:57.52 NEW SESSION
+Apr 16, 2024 17:23:57.53 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 16, 2024 17:23:57.54 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 16, 2024 17:27:49.85 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 16, 2024 17:27:49.85 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 16, 2024 20:37:14.20 NEW SESSION
+Apr 16, 2024 20:37:14.22 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 16, 2024 20:37:14.22 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 17, 2024 15:05:23.38 NEW SESSION
+Apr 17, 2024 15:05:23.39 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 17, 2024 15:05:23.39 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 17, 2024 15:08:11.51 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 17, 2024 15:08:11.52 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 17, 2024 16:49:24.74 NEW SESSION
+Apr 17, 2024 16:49:24.75 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 17, 2024 16:49:24.77 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 17, 2024 17:49:21.78 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 17, 2024 17:49:21.78 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 18, 2024 10:28:55.63 NEW SESSION
+Apr 18, 2024 10:28:55.64 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 10:28:55.64 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 10:29:54.35 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 10:29:54.36 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 11:11:50.75 [14144:18100:0418/111150.758:ERROR:CONSOLE(1)] "Uncaught Error: PageHandler_UndoBlocklistPromo_Params missing value for non-nullable field "promoId"", source: chrome://resources/mojo/mojo/public/js/bindings.js (1)
+Apr 18, 2024 11:12:23.25 [14144:18100:0418/111223.252:ERROR:device_event_log_impl.cc(195)] [11:12:23.251] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Apr 18, 2024 13:23:18.64 NEW SESSION
+Apr 18, 2024 13:23:18.65 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 13:23:18.65 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 13:24:27.26 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 13:24:27.26 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 13:27:18.17 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 13:27:18.19 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 18, 2024 17:06:28.93 NEW SESSION
+Apr 18, 2024 17:06:28.95 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 17:06:28.95 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 17:08:25.21 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 17:08:25.22 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 17:16:36.05 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 17:16:36.05 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 20:49:20.86 [11920:12192:0418/204920.866:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 18, 2024 20:49:38.47 [11920:12192:0418/204938.469:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 18, 2024 20:50:18.67 [11920:12192:0418/205018.671:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 18, 2024 20:51:06.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 18, 2024 20:51:06.44 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 18, 2024 21:06:30.56 [11420:10660:0418/210630.566:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 18, 2024 21:06:48.62 [11420:10660:0418/210648.628:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 18, 2024 21:12:48.96 [11420:10660:0418/211248.962:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Apr 19, 2024 09:46:17.54 NEW SESSION
+Apr 19, 2024 09:46:17.55 [4900:14776:0419/094617.544:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 19, 2024 09:46:19.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 19, 2024 09:46:19.15 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 19, 2024 09:47:33.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 19, 2024 09:47:33.62 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 19, 2024 10:17:33.71 [12608:16976:0419/101733.712:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 19, 2024 10:42:33.09 [12608:9816:0419/104233.061:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+Apr 19, 2024 10:42:33.09 ----- Certificate i=0 (CN=localhost) -----
+Apr 19, 2024 10:42:33.09 ERROR: No matching issuer found
+Apr 19, 2024 10:42:33.09 
+Apr 19, 2024 10:42:33.09 
+
+Apr 19, 2024 12:38:57.37 NEW SESSION
+Apr 19, 2024 12:38:57.38 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 19, 2024 12:38:57.38 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 19, 2024 12:54:15.18 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 19, 2024 12:54:15.21 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 20, 2024 10:29:27.70 NEW SESSION
+Apr 20, 2024 10:29:27.71 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 10:29:27.72 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 10:39:17.97 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 10:39:17.97 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 10:46:02.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 10:46:02.94 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 10:57:45.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 10:57:45.44 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 11:25:32.34 [1752:1560:0420/112532.348:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+Apr 20, 2024 11:25:32.34 ----- Certificate i=0 (CN=localhost) -----
+Apr 20, 2024 11:25:32.35 ERROR: No matching issuer found
+Apr 20, 2024 11:25:32.35 
+Apr 20, 2024 11:25:32.35 
+Apr 20, 2024 11:26:33.11 [1752:1560:0420/112633.109:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+Apr 20, 2024 11:26:33.11 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+Apr 20, 2024 11:26:33.11 ERROR: Time is after notAfter
+Apr 20, 2024 11:26:33.11 
+Apr 20, 2024 11:26:33.11 
+Apr 20, 2024 12:59:50.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 12:59:50.62 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 20, 2024 18:24:53.50 NEW SESSION
+Apr 20, 2024 18:24:53.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 18:24:53.54 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 20:28:54.00 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 20:28:54.00 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 20:29:34.02 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 20:29:34.02 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 20, 2024 20:44:42.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 20, 2024 20:44:42.83 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 21, 2024 09:11:14.47 NEW SESSION
+Apr 21, 2024 09:11:14.47 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 09:11:14.49 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 10:14:42.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 10:14:42.13 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 10:55:23.27 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 10:55:23.28 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 10:55:57.32 [19268:13264:0421/105557.327:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+Apr 21, 2024 10:55:57.32 ----- Certificate i=0 (CN=localhost) -----
+Apr 21, 2024 10:55:57.32 ERROR: No matching issuer found
+Apr 21, 2024 10:55:57.32 
+Apr 21, 2024 10:55:57.32 
+Apr 21, 2024 11:24:02.91 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 11:24:02.91 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 11:50:27.00 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 11:50:27.01 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 12:01:07.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 12:01:07.99 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 12:02:27.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 12:02:27.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 12:11:05.68 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 12:11:05.69 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 21, 2024 14:43:39.23 NEW SESSION
+Apr 21, 2024 14:43:39.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 14:43:39.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 14:47:39.73 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 14:47:39.74 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 14:49:13.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 14:49:13.62 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 14:52:07.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 14:52:07.60 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 15:09:43.02 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 15:09:43.03 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 15:09:54.30 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 15:09:54.32 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 15:47:48.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 15:47:48.54 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 21, 2024 16:02:15.23 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 21, 2024 16:02:15.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 22, 2024 11:17:47.51 NEW SESSION
+Apr 22, 2024 11:17:47.52 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 22, 2024 11:17:47.52 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 22, 2024 11:21:29.96 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 22, 2024 11:21:29.96 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 23, 2024 10:46:54.46 NEW SESSION
+Apr 23, 2024 10:46:54.48 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 23, 2024 10:46:54.48 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 23, 2024 18:43:52.61 NEW SESSION
+Apr 23, 2024 18:43:52.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 23, 2024 18:43:52.63 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 23, 2024 18:47:40.17 [11564:6044:0423/184740.176:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+Apr 23, 2024 18:47:40.17 ----- Certificate i=0 (CN=localhost) -----
+Apr 23, 2024 18:47:40.17 ERROR: No matching issuer found
+Apr 23, 2024 18:47:40.17 
+Apr 23, 2024 18:47:40.17 
+
+Apr 24, 2024 12:12:03.68 NEW SESSION
+Apr 24, 2024 12:12:03.71 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:12:03.71 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 24, 2024 12:15:06.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:15:06.20 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 24, 2024 12:19:45.00 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:19:45.00 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 24, 2024 12:28:25.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:28:25.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 24, 2024 12:30:44.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:30:44.61 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 24, 2024 12:33:50.92 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:33:50.92 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 24, 2024 12:40:32.49 NEW SESSION
+Apr 24, 2024 12:40:32.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2024 12:40:32.49 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+
+Apr 25, 2024 10:33:52.25 NEW SESSION
+Apr 25, 2024 10:33:52.25 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 25, 2024 10:33:52.27 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Apr 25, 2024 10:47:10.13 [4416:10424:0425/104710.138:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@8771130bd84f76d855ae42fbe02752b03e352f17/&can_dock=true&panel=elements&targetType=tab&veLogging=true (1)
+
+Apr 25, 2024 13:14:01.18 NEW SESSION
+Apr 25, 2024 13:14:01.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Apr 26, 2024 12:27:04.70 NEW SESSION
+Apr 26, 2024 12:27:04.71 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Apr 26, 2024 13:02:19.78 NEW SESSION
+Apr 26, 2024 13:02:19.79 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 26, 2024 13:05:54.77 [12588:8372:0426/130554.773:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length')", source: devtools://devtools/bundled/devtools-frontend/front_end/third_party/codemirror.next/chunk/codemirror.js (1)
+
+Apr 26, 2024 19:13:06.16 NEW SESSION
+Apr 26, 2024 19:13:06.17 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 26, 2024 19:35:10.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 26, 2024 19:39:35.49 [2708:1480:0426/193935.497:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Apr 26, 2024 20:13:15.86 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Apr 27, 2024 17:30:17.06 NEW SESSION
+Apr 27, 2024 17:30:17.07 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 27, 2024 18:01:29.08 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 27, 2024 18:10:35.06 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 27, 2024 18:21:09.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 27, 2024 18:53:33.81 [6752:7144:0427/185333.816:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+Apr 27, 2024 18:53:33.81 ----- Certificate i=0 (CN=localhost) -----
+Apr 27, 2024 18:53:33.81 ERROR: No matching issuer found
+Apr 27, 2024 18:53:33.81 
+Apr 27, 2024 18:53:33.81 
+Apr 27, 2024 19:20:38.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 27, 2024 19:29:16.75 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 01, 2024 10:23:46.47 NEW SESSION
+May 01, 2024 10:23:46.48 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2024 10:29:03.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2024 10:29:53.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 02, 2024 10:33:18.00 NEW SESSION
+May 02, 2024 10:33:18.00 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 02, 2024 12:02:24.66 [17352:16148:0502/120224.661:ERROR:device_event_log_impl.cc(195)] [12:02:24.658] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 02, 2024 12:05:41.27 [17352:16148:0502/120541.272:ERROR:device_event_log_impl.cc(195)] [12:05:41.272] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+May 03, 2024 10:42:15.09 NEW SESSION
+May 03, 2024 10:42:15.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 03, 2024 10:50:58.08 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 03, 2024 11:57:51.27 NEW SESSION
+May 03, 2024 11:57:51.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 03, 2024 12:14:39.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 03, 2024 12:18:15.67 [10544:18176:0503/121815.671:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 03, 2024 12:18:15.67 ----- Certificate i=0 (CN=localhost) -----
+May 03, 2024 12:18:15.67 ERROR: No matching issuer found
+May 03, 2024 12:18:15.67 
+May 03, 2024 12:18:15.67 
+
+May 03, 2024 14:25:00.82 NEW SESSION
+May 03, 2024 14:25:00.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 03, 2024 14:47:58.69 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 04, 2024 13:36:43.91 NEW SESSION
+May 04, 2024 13:36:43.92 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 06, 2024 10:29:31.12 NEW SESSION
+May 06, 2024 10:29:31.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 07, 2024 11:11:45.94 NEW SESSION
+May 07, 2024 11:11:45.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 07, 2024 12:11:26.61 [17740:14732:0507/121126.614:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+May 07, 2024 12:13:37.29 [17740:14732:0507/121337.299:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+May 08, 2024 10:12:54.56 NEW SESSION
+May 08, 2024 10:12:54.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 08, 2024 10:17:58.80 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 08, 2024 10:18:16.72 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 08, 2024 10:20:50.42 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 08, 2024 10:21:25.70 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 08, 2024 10:25:18.47 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 08, 2024 10:41:56.72 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 08, 2024 18:06:50.02 NEW SESSION
+May 08, 2024 18:06:50.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 08, 2024 19:22:05.34 NEW SESSION
+May 08, 2024 19:22:05.37 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 09, 2024 18:07:55.29 NEW SESSION
+May 09, 2024 18:07:55.30 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 09, 2024 18:22:36.01 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 09, 2024 18:26:01.17 NEW SESSION
+May 09, 2024 18:26:01.18 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 09, 2024 18:26:23.38 [11440:5228:0509/182623.387:ERROR:device_event_log_impl.cc(195)] [18:26:23.386] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 09, 2024 18:29:07.97 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 09, 2024 18:32:30.46 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 09, 2024 18:45:01.66 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 09, 2024 18:58:15.40 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 09, 2024 19:06:32.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 10, 2024 09:49:51.34 NEW SESSION
+May 10, 2024 09:49:51.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 10:13:15.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 12:00:07.12 [13432:9820:0510/120007.122:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 10, 2024 12:00:07.12 ----- Certificate i=0 (CN=localhost) -----
+May 10, 2024 12:00:07.12 ERROR: No matching issuer found
+May 10, 2024 12:00:07.12 
+May 10, 2024 12:00:07.12 
+May 10, 2024 12:05:14.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 12:09:24.35 [112:10172:0510/120924.352:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for ssc.33across.com failed:
+May 10, 2024 12:09:24.35 ----- Certificate i=0 (CN=localhost) -----
+May 10, 2024 12:09:24.35 ERROR: No matching issuer found
+May 10, 2024 12:09:24.35 
+May 10, 2024 12:09:24.35 
+May 10, 2024 12:23:57.76 [112:12144:0510/122357.765:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 10, 2024 12:24:11.91 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#56 is a dynamic-sized tensor).
+
+May 10, 2024 16:03:59.39 NEW SESSION
+May 10, 2024 16:03:59.40 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 16:10:11.46 [10868:1344:0510/161011.465:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 10, 2024 16:17:46.59 [10868:1344:0510/161746.597:ERROR:device_event_log_impl.cc(195)] [16:17:46.598] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 10, 2024 17:00:33.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 17:25:42.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 17:32:39.87 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 17:39:56.22 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 17:53:31.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 18:13:05.07 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2024 18:14:23.01 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 11, 2024 11:43:01.89 NEW SESSION
+May 11, 2024 11:43:01.90 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 12, 2024 09:15:28.08 NEW SESSION
+May 12, 2024 09:15:28.09 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 12, 2024 09:47:20.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 12, 2024 09:58:05.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 12, 2024 17:31:30.28 NEW SESSION
+May 12, 2024 17:31:30.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 12, 2024 17:34:59.70 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 12, 2024 17:57:06.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 12, 2024 17:57:59.46 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 12, 2024 18:41:04.63 [17140:8244:0512/184104.639:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 12, 2024 18:41:04.63 ----- Certificate i=0 (CN=localhost) -----
+May 12, 2024 18:41:04.64 ERROR: No matching issuer found
+May 12, 2024 18:41:04.64 
+May 12, 2024 18:41:04.64 
+May 12, 2024 18:41:37.09 [17140:19448:0512/184137.094:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+May 12, 2024 18:41:37.10 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+May 12, 2024 18:41:37.10 ERROR: Time is after notAfter
+May 12, 2024 18:41:37.10 
+May 12, 2024 18:41:37.10 
+May 12, 2024 18:46:11.73 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 13, 2024 10:57:48.03 NEW SESSION
+May 13, 2024 10:57:48.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 13, 2024 11:01:02.69 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 14, 2024 11:30:15.09 NEW SESSION
+May 14, 2024 11:30:15.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 14, 2024 12:15:30.82 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 14, 2024 12:17:40.72 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 14, 2024 12:34:41.92 NEW SESSION
+May 14, 2024 12:34:41.93 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 15, 2024 10:24:24.11 NEW SESSION
+May 15, 2024 10:24:24.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2024 12:09:20.37 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 16, 2024 10:33:43.20 NEW SESSION
+May 16, 2024 10:33:43.21 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 16, 2024 10:35:06.22 [10776:2912:0516/103506.222:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a9001a6e39fbaa559510ca866052950457dd4e6b/&can_dock=true&panel=elements&targetType=tab&veLogging=true&enableAida=true&aidaTemperature=0.2 (1)
+May 16, 2024 10:48:04.97 [10776:10304:0516/104804.976:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 16, 2024 10:48:04.97 ----- Certificate i=0 (CN=localhost) -----
+May 16, 2024 10:48:04.97 ERROR: No matching issuer found
+May 16, 2024 10:48:04.97 
+May 16, 2024 10:48:04.97 
+May 16, 2024 12:20:12.64 [10776:2912:0516/122012.637:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+May 19, 2024 11:53:27.82 NEW SESSION
+May 19, 2024 11:53:27.84 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 19, 2024 12:34:19.03 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 19, 2024 12:39:14.81 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 19, 2024 12:40:22.60 [6028:4692:0519/124022.606:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+May 19, 2024 12:44:41.32 [6028:4692:0519/124441.322:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+May 19, 2024 12:44:45.66 [6028:4692:0519/124445.660:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+May 19, 2024 12:44:49.97 [6028:4692:0519/124449.972:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+May 19, 2024 13:10:47.81 [6028:16884:0519/131047.816:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 19, 2024 13:10:47.81 ----- Certificate i=0 (CN=localhost) -----
+May 19, 2024 13:10:47.81 ERROR: No matching issuer found
+May 19, 2024 13:10:47.81 
+May 19, 2024 13:10:47.81 
+May 19, 2024 13:14:04.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 20, 2024 09:06:00.08 NEW SESSION
+May 20, 2024 09:06:00.09 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 10:16:57.93 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 10:18:40.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 20, 2024 12:50:42.46 NEW SESSION
+May 20, 2024 12:50:42.48 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 13:07:34.76 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 13:09:01.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 13:37:04.88 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 13:40:02.85 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2024 13:41:34.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 21, 2024 12:53:06.37 NEW SESSION
+May 21, 2024 12:53:06.39 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 21, 2024 12:57:31.97 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 22, 2024 09:58:07.28 NEW SESSION
+May 22, 2024 09:58:07.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 09:58:41.92 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 10:12:26.40 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 11:20:20.17 [15704:14324:0522/112020.174:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 22, 2024 11:20:20.17 ----- Certificate i=0 (CN=localhost) -----
+May 22, 2024 11:20:20.17 ERROR: No matching issuer found
+May 22, 2024 11:20:20.17 
+May 22, 2024 11:20:20.17 
+May 22, 2024 11:43:01.32 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 11:58:42.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 12:15:15.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 12:33:43.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2024 12:53:27.91 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 24, 2024 10:22:17.11 NEW SESSION
+May 24, 2024 10:22:17.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 24, 2024 11:10:29.07 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 24, 2024 11:56:50.46 NEW SESSION
+May 24, 2024 11:56:50.47 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 24, 2024 12:35:02.73 [9852:11184:0524/123502.729:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 24, 2024 12:35:02.73 ----- Certificate i=0 (CN=localhost) -----
+May 24, 2024 12:35:02.73 ERROR: No matching issuer found
+May 24, 2024 12:35:02.73 
+May 24, 2024 12:35:02.73 
+May 24, 2024 15:13:14.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 24, 2024 16:02:44.60 NEW SESSION
+May 24, 2024 16:02:44.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 24, 2024 16:05:28.44 NEW SESSION
+May 24, 2024 16:05:28.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 24, 2024 16:06:55.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 24, 2024 16:22:55.53 NEW SESSION
+May 24, 2024 16:22:55.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 24, 2024 16:29:47.98 NEW SESSION
+May 24, 2024 16:29:47.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 25, 2024 11:34:53.45 NEW SESSION
+May 25, 2024 11:34:53.46 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 25, 2024 17:55:06.52 NEW SESSION
+May 25, 2024 17:55:06.55 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 25, 2024 18:20:39.01 [13440:15072:0525/182039.010:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 25, 2024 18:20:39.01 ----- Certificate i=0 (CN=localhost) -----
+May 25, 2024 18:20:39.01 ERROR: No matching issuer found
+May 25, 2024 18:20:39.01 
+May 25, 2024 18:20:39.01 
+May 25, 2024 18:29:58.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 25, 2024 18:40:14.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 26, 2024 10:31:38.59 NEW SESSION
+May 26, 2024 10:31:38.60 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 11:00:30.32 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 11:30:43.02 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 11:35:36.75 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 12:16:17.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 12:43:25.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 12:48:05.60 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 13:02:35.64 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 13:07:54.85 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 13:14:39.70 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 13:26:22.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 13:30:09.77 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 26, 2024 14:06:12.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 27, 2024 13:31:19.40 NEW SESSION
+May 27, 2024 13:31:19.41 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 27, 2024 13:43:28.84 [14576:7616:0527/134328.844:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for cs.axis-marketplace.com failed:
+May 27, 2024 13:43:28.84 ----- Certificate i=0 (CN=*.axis-marketplace.com) -----
+May 27, 2024 13:43:28.84 ERROR: Time is after notAfter
+May 27, 2024 13:43:28.84 
+May 27, 2024 13:43:28.84 
+
+May 27, 2024 20:38:57.52 NEW SESSION
+May 27, 2024 20:38:57.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 27, 2024 20:41:45.08 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 28, 2024 10:32:14.25 NEW SESSION
+May 28, 2024 10:32:14.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 28, 2024 10:51:54.60 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 29, 2024 18:42:15.26 NEW SESSION
+May 29, 2024 18:42:15.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 29, 2024 18:44:08.51 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 29, 2024 18:45:46.22 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 30, 2024 10:16:00.69 NEW SESSION
+May 30, 2024 10:16:00.70 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 30, 2024 10:30:56.52 [7368:14696:0530/103056.527:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for farm.plista.com failed:
+May 30, 2024 10:30:56.52 ----- Certificate i=0 (CN=localhost) -----
+May 30, 2024 10:30:56.52 ERROR: No matching issuer found
+May 30, 2024 10:30:56.52 
+May 30, 2024 10:30:56.53 
+May 30, 2024 10:30:56.63 [7368:6304:0530/103056.637:ERROR:interface_endpoint_client.cc(722)] Message 5 rejected by interface blink.mojom.WidgetHost
+May 30, 2024 10:36:48.90 [7368:6304:0530/103648.904:ERROR:device_event_log_impl.cc(195)] [10:36:48.904] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 30, 2024 10:38:42.36 [7368:6304:0530/103842.362:ERROR:device_event_log_impl.cc(195)] [10:38:42.361] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jun 04, 2024 10:25:57.63 NEW SESSION
+Jun 04, 2024 10:25:57.64 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 04, 2024 10:32:11.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 04, 2024 10:41:59.31 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Jun 05, 2024 15:16:28.61 NEW SESSION
+Jun 05, 2024 15:16:28.63 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Jun 06, 2024 10:28:14.87 NEW SESSION
+Jun 06, 2024 10:28:14.87 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 06, 2024 10:51:13.22 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 06, 2024 11:09:04.58 [6132:10288:0606/110904.580:ERROR:device_event_log_impl.cc(195)] [11:09:04.579] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jun 13, 2024 08:09:14.74 NEW SESSION
+Jun 13, 2024 08:09:14.75 Created TensorFlow Lite XNNPACK delegate for CPU.

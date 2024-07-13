@@ -1,0 +1,15 @@
+package task;
+
+import java.util.Scanner;
+
+//wajp to find average of all even number from 1 to 500
+public class allEven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

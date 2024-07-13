@@ -1,0 +1,20 @@
+package task;
+
+import java.util.Iterator;
+
+//*****
+// ****
+//  ***
+//   **
+//    *
+public class patten {
+
+	public static void main(String[] args) {
+		for()
+		{
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,16 @@
+127.0.0.1 - - [01/Jun/2024:10:56:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:41 +0530] "GET /E-Society/user-index.jsp HTTP/1.1" 200 15720
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:41 +0530] "GET /E-Society/css/responsee.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:41 +0530] "GET /E-Society/css/components.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:41 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:41 +0530] "GET /E-Society/img/e-society.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:41 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:44 +0530] "GET /E-Society/user-login.jsp HTTP/1.1" 200 8865
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:44 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:44 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:48 +0530] "POST /E-Society/UserController HTTP/1.1" 200 9442
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:48 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:49 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:52 +0530] "GET /E-Society/user-mantenance.jsp HTTP/1.1" 200 7872
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:52 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [01/Jun/2024:10:56:52 +0530] "GET /E-Society/css/lightcase.css HTTP/1.1" 404 786

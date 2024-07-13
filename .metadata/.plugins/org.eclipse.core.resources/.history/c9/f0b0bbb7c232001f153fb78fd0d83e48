@@ -1,0 +1,19 @@
+package task;
+
+//wajp to find average of all even number from 1 to 500
+public class allEven {
+	public static void main(String[] args) {
+        int sum = 0;
+        int count = 0;
+
+        for (int i = 2; i <= 500; i += 2) {
+            sum += i;
+            count++;
+        }
+
+        double average =  (double)sum / count;
+
+        System.out.println("Average of even numbers from 1 to 500: " + average);
+    }
+
+}

@@ -1,0 +1,30 @@
+package task;
+
+import java.util.Scanner;
+
+//*****
+// ****
+//  ***
+//   **
+//    *
+public class patten {
+
+	public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of stars:");
+        int totalStars = sc.nextInt();
+        int starsRemaining = totalStars;
+
+        for (int i = totalStars; i >= 1; i--) {
+            for (int j = totalStars; j > i; j--) {
+                System.out.print(" ");
+            }
+            int starsInRow = Math.min(i, starsRemaining);
+            for (int k = 1; k <= starsInRow; k++) {
+                System.out.print("*");
+                starsRemaining--;
+            }
+            System.out.println("");
+        }
+    }
+}

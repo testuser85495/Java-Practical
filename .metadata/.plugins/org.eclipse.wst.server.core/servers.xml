@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="12">
+    <list key="modules" value0="Citizencard::org.eclipse.jst.jee.server:Citizencard::jst.web::4.0" value1="First_demo::org.eclipse.jst.jee.server:First_demo::jst.web::4.0" value2="Crud_demo_self::org.eclipse.jst.jee.server:Crud_demo_self::jst.web::4.0" value3="demo_crud::org.eclipse.jst.jee.server:demo_crud::jst.web::4.0" value4="Project_Demo::org.eclipse.jst.jee.server:Project_Demo::jst.web::4.0" value5="Login_reg::org.eclipse.jst.jee.server:Login_reg::jst.web::4.0" value6="E-Society::org.eclipse.jst.jee.server:E-Society::jst.web::4.0" value7="crudWithValidation::org.eclipse.jst.jee.server:crudWithValidation::jst.web::4.0"/>
+  </server>
+</servers>

@@ -1,0 +1,26 @@
+package task;
+
+//write a java program to solve multiple inheritance
+interface  A {
+	public void fun1();
+}
+interface  B extends A{
+	
+}
+
+interface  c {
+	public void fun2();
+}
+
+interface abc{
+	public void f() {
+		
+	}
+}
+public class MultipleInhritance  {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

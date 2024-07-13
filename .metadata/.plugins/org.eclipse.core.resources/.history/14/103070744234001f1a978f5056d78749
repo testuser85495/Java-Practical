@@ -1,0 +1,15 @@
+package task;
+
+//write a java program to solve multiple inheritance
+class A {
+	
+}
+class B extends A{
+	
+}
+public class MultipleInhritance {
+	public static void main(String[] args) {
+		
+	}
+
+}

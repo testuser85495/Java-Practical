@@ -1,0 +1,43 @@
+package task;
+
+import java.security.PublicKey;
+
+//write a java program to solve multiple inheritance
+interface  A {
+	public void fun1();
+}
+interface  B extends A{
+	
+}
+
+interface  c {
+	public void fun2();
+}
+
+class abc implements A,c{
+	public void f() {
+		
+	}
+
+	@Override
+	public void fun2() {
+		// TODO Auto-generated method stub
+		System.out.println("hello fun2");
+	
+		
+	}
+
+	@Override
+	public void fun1() {
+		// TODO Auto-generated method stub
+		System.out.println("hello fun1");
+		
+	}
+}
+public class MultipleInhritance  {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

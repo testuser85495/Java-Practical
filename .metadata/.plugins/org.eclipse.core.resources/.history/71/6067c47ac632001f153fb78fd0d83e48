@@ -1,0 +1,9 @@
+package task;
+
+//write a java program to solve multiple inheritance
+public class MultipleInhritance {
+	public static void main(String[] args) {
+		
+	}
+
+}
