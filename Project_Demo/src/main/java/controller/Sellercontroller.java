@@ -1,6 +1,8 @@
 package controller;
 
 import java.io.IOException;
+import java.util.Random;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,9 +12,11 @@ import javax.servlet.http.HttpSession;
 
 import com.mysql.cj.Session;
 
+import doa.Customerdoa;
 import doa.sellerdoa;
 import model.Customer;
 import model.seller;
+import serviceOTP.Servicess;
 
 /**
  * Servlet implementation class Sellercontroller
@@ -122,6 +126,54 @@ public class Sellercontroller extends HttpServlet {
 				request.getRequestDispatcher("sell-changepassword.jsp").forward(request, response);
 			}
 			
+		}
+		else if (action.equalsIgnoreCase("Get OTP")) {
+			String email = request.getParameter("email");
+			System.out.println(email);
+			Boolean flag = Customerdoa.emailcheck(email);
+			if (flag == true) {
+				Random r = new Random();
+				int num = r.nextInt(999999);
+				Servicess.Sendmail(email, num);
+				request.setAttribute("email", email);
+				request.setAttribute("otp", num);
+				request.getRequestDispatcher("sell-verify-otp.jsp").forward(request, response);
+			}
+			else {
+				request.setAttribute("msg", "account not registered");
+				request.getRequestDispatcher("sell-forgetpassword.jsp").forward(request, response);
+			}
+		}
+		else if (action.equalsIgnoreCase("verify")) {
+			String email = request.getParameter("email");
+			int otp1 = Integer.parseInt(request.getParameter("otp1"));
+			int otp2 = Integer.parseInt(request.getParameter("otp2"));
+			System.out.println(email+"system : "+otp1+"user : "+otp2);
+			if (otp1==otp2) {
+				request.setAttribute("email", email);
+				request.getRequestDispatcher("sell-new-password.jsp").forward(request, response);
+			}
+			else {
+				request.setAttribute("email", email);
+				request.setAttribute("otp", otp1);
+				request.setAttribute("msg", "wrong OTP");
+				request.getRequestDispatcher("sell-verify-otp.jsp").forward(request, response);
+			}
+		}
+		else if (action.equalsIgnoreCase("change-forgot-pass")) {
+			String email= request.getParameter("email");
+			String np= request.getParameter("np");
+			String cp= request.getParameter("cp");
+			System.out.println(email+"  "+np+"  "+cp);
+			if (np.equals(cp)) {
+				sellerdoa.changepassword(email, np);
+				response.sendRedirect("sell-login.jsp");
+			}
+			else {
+				request.setAttribute("msg", "Password and confirm password not Match");
+				request.setAttribute("email", email);
+				request.getRequestDispatcher("sell-new-password.jsp").forward(request, response);
+			}
 		}
 	}
 

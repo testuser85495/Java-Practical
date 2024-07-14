@@ -109,5 +109,19 @@ public class sellerdoa {
 			e.getStackTrace();
 		}
 	}
+	public static void changepassword(String email,String np) {
+		try {
+			Connection conn = DBconnection.drivConnection();
+			String sql = "update seller set password=? where email=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setString(1, np);
+			pst.setString(2, email);
+			pst.executeUpdate();
+			System.out.println("password change");
+		} catch (Exception e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+	}
 
 }

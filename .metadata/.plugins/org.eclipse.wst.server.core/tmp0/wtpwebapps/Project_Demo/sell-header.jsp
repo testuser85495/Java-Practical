@@ -105,15 +105,15 @@
 											<li><a href="customer-registration.jsp">As Customer</a></li>
 										</ul></li> -->
 					<div class="dropdown">
-						<li><a class="nav-link" href="#">Product</a></li>
-						<div class="dropdown-content">
+						<li><a class="nav-link" href="sell-uploadproduct.jsp">Upload Product</a></li>
+						<!-- <div class="dropdown-content">
 							<ul type="none">
 								<li><a href="sell-uploadproduct.jsp" style="text-decoration: none;">Upload Product</a></li>
 							</ul>
 							<ul type="none">
 								<li><a href="#" style="text-decoration: none;">product</a></li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
 
 					<li><a class="nav-link" href="#">About us</a></li>

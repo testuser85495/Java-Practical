@@ -18,13 +18,13 @@
 	font-family: "Inter", sans-serif;
 }
 
-.contain {
+/* .contain {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 500px;
 	width: 50%;
-}
+} */
 
 .main {
 	display: flex;
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 
-					<input type="submit" class="btn btn-primary-hover-outline"
+					<input type="submit" class="mb-3 btn btn-primary-hover-outline"
 						name="action" value="upload product">
 
 				</div>
@@ -110,3 +110,4 @@
 	</form>
 </body>
 </html>
+<%@include file="footer.jsp" %>

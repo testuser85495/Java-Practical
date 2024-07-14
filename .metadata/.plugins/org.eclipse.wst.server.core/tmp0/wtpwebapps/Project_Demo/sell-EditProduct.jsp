@@ -21,13 +21,13 @@
 	font-family: "Inter", sans-serif;
 }
 
-.contain {
+/* .contain {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 500px;
 	width: 50%;
-}
+} */
 
 .main {
 	display: flex;
@@ -60,8 +60,12 @@
 }
 </style>
 <body>
-<%int id = Integer.parseInt(request.getParameter("id")); %>
-<%Product  p = ProductDAO.GetProductById(id); %>
+	<%
+	int id = Integer.parseInt(request.getParameter("id"));
+	%>
+	<%
+	Product p = ProductDAO.GetProductById(id);
+	%>
 	<form action="Productcontroller" method="post"
 		enctype="multipart/form-data">
 		<div class="main">
@@ -70,38 +74,46 @@
 					<div class="">
 						<h2 style="text-align: center;">Update Product</h2>
 						<input type="hidden" name="sid" value="<%=p.getPid()%>">
-						<div class="form-group">
-						<img src="image/<%=p.getPimage()%>" height="200" width="200">
-							<label class="text-black" for="fname">Image</label> <input
-								type="file" class="form-control" name="image" id="fname"<%-- value="image/<%=pro.getPimage()%>" --%>>
+						<div>
+								<img src="image/<%=p.getPimage()%>" height="100" width="100">
+							</div>
+						<div class="form-group mt-6">
+							<label class="text-black" for="fname">Image</label>
+							
+							<input type="file" class="form-control" name="image" id="fname"
+								 value="image/<%=p.getPimage()%>">
 						</div>
 					</div>
 					<div class="">
 						<div class="form-group">
 							<label class="text-black" for="lname">Name</label> <input
-								type="text" class="form-control" name="name" id="lname" value="<%=p.getPname()%>"/>
+								type="text" class="form-control" name="name" id="lname"
+								value="<%=p.getPname()%>" />
 						</div>
 					</div>
 					<div class="">
 						<div class="form-group">
 							<label class="text-black" for="lname">Price</label> <input
-								type="text" class="form-control" name="price" id="lname" value="<%=p.getPprice()%>" >
+								type="text" class="form-control" name="price" id="lname"
+								value="<%=p.getPprice()%>">
 						</div>
 					</div>
 					<div class="">
 						<div class="form-group">
 							<label class="text-black" for="lname">Category</label> <input
-								type="text" class="form-control" name="category" id="lname" value="<%=p.getPcategory()%>" >
+								type="text" class="form-control" name="category" id="lname"
+								value="<%=p.getPcategory()%>">
 						</div>
 					</div>
 					<div class="">
 						<div class="form-group">
 							<label class="text-black" for="lname">Description</label> <input
-								type="text" class="form-control" name="desc" id="lname" value="<%=p.getPdesc()%>" >
+								type="text" class="form-control" name="desc" id="lname"
+								value="<%=p.getPdesc()%>">
 						</div>
 					</div>
 
-					<input type="submit" class="btn btn-primary-hover-outline"
+					<input type="submit" class="btn btn-primary-hover-outline mb-5"
 						name="action" value="update product">
 
 				</div>
@@ -110,3 +122,4 @@
 	</form>
 </body>
 </html>
+<%@include file="footer.jsp"%>

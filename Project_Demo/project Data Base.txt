@@ -1,0 +1,14 @@
+customer table
+columns :  id, name, email, contact, address, password
+
+cart table
+columns : id, cid, payment, pid, pimage, pname, pprice, qty, subtotal, total_price
+
+product table
+columns : image, pcategory, pdescription, pid, pname, pprice, sid
+
+seller table	
+columns : address, contact, email, id, name, password
+
+wishlist table
+columns : custid, image, pcategory, pdescription, pid, pname, pprice,wid

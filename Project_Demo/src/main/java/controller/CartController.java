@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import doa.Cartdoa;
 import doa.ProductDAO;
+import doa.WishLIstDAO;
 import model.Product;
 import model.cart;
 
@@ -35,6 +36,7 @@ public class CartController extends HttpServlet {
 		if (action.equalsIgnoreCase("addtocart")) {
 			
 			int pid = Integer.parseInt(request.getParameter("pid"));
+			int cid = Integer.parseInt(request.getParameter("cid"));
 			Product p = ProductDAO.GetProductById(pid);
 			cart crt = new cart();
 			crt.setPid(Integer.parseInt(request.getParameter("pid")));
@@ -47,6 +49,9 @@ public class CartController extends HttpServlet {
 			crt.setPayment("pending");
 			System.out.println("cart data "+crt);
 			Cartdoa.insertcart(crt);
+//			System.out.println("aftre insert");
+//			WishLIstDAO.deleteWishlist(pid);
+//			System.out.println("wishlist delete");
 			response.sendRedirect("shop.jsp");
 		}
 	}

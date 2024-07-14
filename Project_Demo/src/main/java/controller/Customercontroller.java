@@ -171,6 +171,7 @@ public class Customercontroller extends HttpServlet {
 			}
 			else {
 				request.setAttribute("msg", "Password and confirm password not Match");
+				request.setAttribute("email", email);
 				request.getRequestDispatcher("new-password.jsp").forward(request, response);
 			}
 		}

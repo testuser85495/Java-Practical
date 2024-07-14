@@ -133,6 +133,62 @@ public class Cartdoa {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		
+		
+	}
+	
+	public static cart getSingleCartByCusId(int cusid){
+		cart c = null;
+		try {
+			Connection conn = DBconnection.drivConnection();
+			String sql ="select * from cart where cid=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, cusid);
+			ResultSet rs = pst.executeQuery();
+			while(rs.next()) {
+				c = new cart();
+				c.setId(rs.getInt("id"));
+				c.setCid(rs.getInt("cid"));
+				c.setPid(rs.getInt("pid"));
+				c.setQty(rs.getInt("qty"));
+				c.setPprice(rs.getInt("pprice"));
+				c.setTotal_price(rs.getInt("total_price"));
+				c.setSubtotal(rs.getInt("subtotal"));
+				c.setPayment(rs.getString("payment"));
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return c;
+	}
+	public static void updateStatus(int cart_id) {
+		try {
+			Connection conn = DBconnection.drivConnection();
+			String sql ="update cart set payment='successful' where id=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, cart_id);
+			pst.executeUpdate();
+			System.out.println("cart updated");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public static void deleteAllFromCart(int id) {
+		
+		try {
+			Connection conn = DBconnection.drivConnection();
+			String sql ="delete from cart where id=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, id);
+			pst.executeUpdate();
+			System.out.println("shoping complete");
+		} catch (Exception e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+		// TODO Auto-generated method stub
+		
 	}
 
 }
