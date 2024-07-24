@@ -49,7 +49,6 @@ public class CartController extends HttpServlet {
 			crt.setPayment("pending");
 			System.out.println("cart data "+crt);
 			Cartdoa.insertcart(crt);
-//			System.out.println("aftre insert");
 //			WishLIstDAO.deleteWishlist(pid);
 //			System.out.println("wishlist delete");
 			response.sendRedirect("shop.jsp");

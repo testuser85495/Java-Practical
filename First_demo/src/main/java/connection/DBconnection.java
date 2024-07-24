@@ -11,7 +11,7 @@ public class DBconnection {
 			// driver name -> forName responsible to load driver into project
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// connectivity URL
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs", "root", "");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/abcd", "root", "");
 
 		} catch (Exception e) {
 			e.printStackTrace();

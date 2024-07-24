@@ -3,140 +3,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Registation Form</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Register</title>
 </head>
 
-<style>
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
-.container {
-	height: 520px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: aquamarine;
-}
-
-td {
-	justify-content: center;
-}
-
-.tbl_reg {
-	height: 200px;
-	border: 1px black solid;
-	border-radius: 4%;
-	padding: 20px;
-	padding-top: 1px;
-	padding-bottom: 10px;
-}
-
-.reg_submit {
-	height: 25px;
-	width: 100%;
-}
-
-a {
-	text-decoration: none;
-	color: blue;
-}
-
-.login {
-	height: 50px;
-	width: 100%;
-	border-radius: 14%;
-	display: flex;
-	align-items: center;
-	align-it: center;
-	justify-content: space-evenly;
-}
-
-#reg_submit {
-	border-radius: 10px;
-}
-
-.scriptlet {
-	color: red;
-	text-align: center;
-}
-</style>
 <body>
 	<div class="container">
-		<h3 class="scriptlet">
-			<%
-			String msg = (String) request.getAttribute("msg");
-			if (msg != null) {
-				out.print(msg);
-			}
-			%>
-		</h3>
-
 		<form action="UserController" method="post">
-			<table cellspacing="15" class="tbl_reg">
+			<table cellspacing="15" class="tbl_reg d-grid gap-2 col-6 mx-auto">
 				<tr>
-					<td colspan="2">
+					<td colspan="2" class="text-center">
 						<h1>Registration Form</h1>
 					</td>
 				</tr>
 				<tr>
 					<td><label>Name : </label></td>
 					<td><input type="text" name="name" placeholder="Enter Name"
-						required="required"></td>
-				</tr>
-
-				<tr>
-					<td><label>Email : </label></td>
-					<td><input type="email" name="email" placeholder="Enter Email"
-						required="required"></td>
-				</tr>
-
-
-				<tr>
-					<td><label>Password : </label></td>
-					<td><input type="password" name="password"
-						placeholder="Enter Password" required="required"></td>
+						class="form-control my-3" required="required"></td>
 				</tr>
 
 				<tr>
 					<td><label>Address : </label></td>
 					<td><input type="text" name="address"
-						placeholder="Enter Address" required="required"></td>
+						placeholder="Enter Address" required="required"
+						class="form-control my-3"></td>
 				</tr>
 
+
 				<tr>
-					<td><label>Contact : </label></td>
-					<td><input type="text" name="contact"
-						placeholder="Enter Contact" required="required"></td>
+					<td><label>Email : </label></td>
+					<td><input type="email" name="email" placeholder="Enter Email"
+						required="required" class="form-control my-3"></td>
+				</tr>
+				<tr>
+					<td><label>Password : </label></td>
+					<td><input type="password" name="password"
+						placeholder="Enter Password" required="required"
+						class="form-control my-3"></td>
 				</tr>
 
 				<tr>
 					<td><label>Country : </label></td>
-					<td><input type="text" name="country"
-						placeholder="Enter Country" required="required"></td>
+					<td><select name="country" id="Country"
+						class="form-select my-3">
+							<option selected>Select Country</option>
+							<option value="India">India</option>
+							<option value="USA">USA</option>
+							<option value="Canada">Canada</option>
+							<option value="UK">UK</option>
+					</select></td>
 				</tr>
 
 				<tr>
 					<td><label>Gender : </label></td>
-					<td><input type="text" name="gender"
-						placeholder="Enter Gender" required="required"></td>
+					<td><label class="form-check-inline my-3"> <input
+							type="radio" name="gender" value="male" class="form-check-input">
+							Male
+					</label> <label class="form-check-inline"> <input type="radio"
+							name="gender" value="female" class="form-check-input">
+							Female
+					</label></td>
 				</tr>
 
+
+				<tr>
+					<td><label>Hobbies : </label></td>
+					<td><label class="form-check-inline my-3"> <input
+							type="checkbox" name="hobbie" value="playing"
+							class="form-check-input"> Playing
+					</label> <label class="form-check-inline my-3"> <input type="checkbox"
+							name="hobbie" value="Dancing" class="form-check-input">
+							Dancing
+					</label> <label class="form-check-inline my-3"> <input type="checkbox"
+							name="hobbie" value="Reading" class="form-check-input">
+							Reading
+					</label></td>
+				</tr>
 				<tr>
 					<td colspan="2"><input type="Submit" name="action"
-						value="Register" class="reg_submit" id="reg_submit" /></td>
+						value="Register" class="d-grid gap-2 col-6 mx-auto btn btn-primary reg_submit"
+						id="reg_submit" /></td>
 				</tr>
 			</table>
-			<table class="login">
-				<tr>
-					<td><h3>
-							Have an account? <a href="login.jsp">Log in</a>
-						</h3></td>
-				</tr>
-			</table>
+			<!-- <h4><a href="home.jsp">List</a></h4> -->
 		</form>
 	</div>
 </body>

@@ -13,44 +13,55 @@ import dao.Userdao;
 @WebServlet("/UserController")
 public class UserController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    public UserController() {
-        super();
-    }
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		
+	public UserController() {
+		super();
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		doGet(request, response);
 		String action = request.getParameter("action");
-		System.out.println("action");
-		if(action.equalsIgnoreCase("register")) {
-			user u =new user();
+//		System.out.println("action");
+		if (action.equalsIgnoreCase("register")) {
+			user u = new user();
 			u.setName(request.getParameter("name"));
 			u.setEmail(request.getParameter("email"));
 			u.setPassword(request.getParameter("password"));
-			u.setContact(Long.parseLong(request.getParameter("contact")));
 			u.setAddress(request.getParameter("address"));
 			u.setCountry(request.getParameter("country"));
 			u.setGender(request.getParameter("gender"));
+			String[] hobbiesArray = request.getParameterValues("hobbie");
+			u.setHobbies(hobbiesArray);
 			System.out.println(u);
-			String email=request.getParameter("email");
-			Boolean check = Userdao.emailcheck(email);
-			if (check == false) {
-				Userdao.insertUser(u);
-				response.sendRedirect("login.jsp");
-			}
-			else {
-				request.setAttribute("msg", "User already exixt");
-				request.getRequestDispatcher("indix.jsp").forward(request, response);
-			}
+			Userdao.insertUser(u);
+			response.sendRedirect("home.jsp");
 			
-			
+		} 
+		else if (action.equalsIgnoreCase("update")) {
+			System.out.println("inside Edit");
+			user u= new user();
+			u.setId(Integer.parseInt(request.getParameter("id")));
+			u.setName(request.getParameter("name"));
+			u.setEmail(request.getParameter("email"));
+			u.setPassword(request.getParameter("password"));
+			u.setAddress(request.getParameter("address"));
+			u.setCountry(request.getParameter("country"));
+			u.setGender(request.getParameter("gender"));
+			String[] hobbiesArray = request.getParameterValues("hobbie");
+			u.setHobbies(hobbiesArray);
+			System.out.println(u);
+			Userdao.updateUserById(u);
+			response.sendRedirect("home.jsp");
 			
 		}
+
 	}
 
 }

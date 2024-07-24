@@ -1,0 +1,133 @@
+<%@page import="dao.Userdao"%>
+<%@page import="Model.user"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+
+<title>Edit</title>
+</head>
+<body>
+	<%
+	int id = Integer.parseInt(request.getParameter("id"));
+	%>
+
+	<%
+	user u = Userdao.getUserById(id);
+	%>
+	<div class="container ">
+		<form action="UserController" method="post">
+			<table cellspacing="15" class="tbl_reg d-grid gap-2 col-6 mx-auto">
+				<tr>
+					<td colspan="2">
+						<h1>Edit Form</h1>
+					</td>
+				</tr>
+				<tr>
+					<td><input class="form-control my-3" type="hidden" name="id"  value="<%=u.getId()%>"></td>
+				</tr>
+				<tr>
+					<td><label>Name : </label></td>
+					<td><input class="form-control my-3" type="text" name="name" value="<%=u.getName()%>"></td>
+				</tr>
+
+				<tr>
+					<td><label>Address : </label></td>
+					<td><input class="form-control my-3" type="text" name="address"  value="<%=u.getAddress()%>"></td>
+				</tr>
+
+
+				<tr>
+					<td><label>Email : </label></td>
+					<td><input class="form-control my-3" type="email" name="email"  value="<%=u.getEmail()%>"></td>
+				</tr>
+				<tr>
+					<td><label>Password : </label></td>
+					<td><input class="form-control my-3" type="text" name="password" value="<%=u.getPassword()%>"></td>
+				</tr>
+
+				<tr>
+					<td><label>Country : </label></td>
+					<%
+					String country = u.getCountry();
+					%>
+					<td><select name="country" id="Country" class="form-select">
+							<option value="India" class="form-control my-3"
+								<%=country.equalsIgnoreCase("India") ? "selected" : ""%>>India</option>
+							<option value="USA" class="form-control"
+								<%=country.equalsIgnoreCase("USA") ? "selected" : ""%>>USA</option>
+							<option value="Canada" class="form-control"
+								<%=country.equalsIgnoreCase("Canada") ? "selected" : ""%>>Canada</option>
+							<option value="UK" class="form-control"
+								<%=country.equals("UK") ? "selected" : ""%>>UK</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td><label>Gender : </label></td>
+					<%
+					String gender = u.getGender();
+					%>
+					<td><label class="form-check-inline my-3"> <input
+							type="radio" name="gender" value="male" class="form-check-input"
+							<%=gender.equalsIgnoreCase("male") ? "checked" : ""%>>
+							Male
+					</label> <label class="form-check-inline"> <input type="radio"
+							name="gender" value="female" class="form-check-input"
+							<%=gender.equalsIgnoreCase("female") ? "checked" : ""%>>
+							Female
+					</label></td>
+				</tr>
+
+
+				<tr>
+					<td><label>Hobbies : </label></td>
+					<td>
+						<%
+						String[] hobbiesArray = u.getHobbies();
+						%> <label class="form-check-inline my-3"> <input
+							type="checkbox" class="form-check-input" name="hobbie"
+							value="playing"
+							<%for (String hobby : hobbiesArray) {
+	if (hobby.equalsIgnoreCase("playing")) {%>
+							checked <%}
+}%>> playing
+					</label> <label class="form-check-inline my-3"> <input type="checkbox"
+							name="hobbie" value="Dancing" class="form-check-input"
+							<%for (String hobby : hobbiesArray) {
+	if (hobby.equalsIgnoreCase("dancing")) {%>
+							checked <%}
+}%>> Dancing
+					</label> <label class="form-check-inline"> <input type="checkbox"
+							name="hobbie" value="Reading" class="form-check-input"
+							<%for (String hobby : hobbiesArray) {
+	if (hobby.equalsIgnoreCase("reading")) {%>
+							checked <%}
+}%>> Reading
+					</label>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2"><input type="Submit" name="action"
+						value="update" class="d-grid gap-2 col-6 mx-auto btn btn-primary reg_submit" id="reg_submit" /></td>
+				</tr>
+			</table>
+			<h4>
+				<a href="home.jsp">List</a>
+			</h4>
+		</form>
+	</div>
+</body>
+</html>
